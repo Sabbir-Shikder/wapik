@@ -1,0 +1,292 @@
+@media(max-width: 1399px) {
+    .map-image img {
+        width: 50%;
+    }
+    .header-area .col-lg-1::before {
+        display: none;
+    }
+}
+@media(max-width: 1199px) {
+    .header-num {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .header-area .container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #879d9d;
+    }
+    .banner-area {
+        min-height: 650px;
+    }
+    .features-area .row:last-child {
+        padding-top: 60px;
+    }
+    .lady-sec {
+        padding: 100px 0;
+    }
+    .map-area {
+        padding: 120px 0;
+    }
+    .footer-area {
+        padding-top: 80px;
+    }
+    form {
+        width: 100%;
+    }
+}
+@media(max-width: 991px) {
+    .features-area .row:last-child {
+        padding-top: 25px;
+    }
+    .single-fea p {
+        padding: 0;
+        padding-top: 15px;
+    }
+    .features-area {
+        padding: 60px 0 20px;
+    }
+    .hand-img img {
+        margin-top: 20px;
+    }
+    .hand-cont-list ul li p {
+        font-size: 14px;
+    }
+    .lady-sec {
+        padding: 70px 0;
+    }
+    .lady-info {
+        padding-top: 20px;
+    }
+    .lady-img {
+        padding-top: 50px;
+    }
+    .map-area {
+        padding: 95px 0;
+    }
+    .single-price-box {
+        margin-bottom: 30px;
+    }
+    .pricing-area {
+        padding-top: 70px;
+        padding-bottom: 55px;
+    }
+    .single-plan-box {
+        margin-bottom: 30px;
+    }
+    .help-area {
+        padding-bottom: 60px;
+    }
+    .footer-single-box {
+        padding-bottom: 40px;
+    }
+    .footer-area {
+        padding-top: 65px;
+        padding-bottom: 10px;
+    }
+}
+@media(max-width: 767px) {
+    .toggle-nav-container {
+        display: inline-block;
+        cursor: pointer;
+        margin-bottom: -10px;
+    }
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 35px;
+        height: 5px;
+        background-color: #fff;
+        -webkit-transition: 0.4s;
+        -o-transition: 0.4s;
+        transition: 0.4s;
+    }
+    .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        -ms-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+    }
+    .change .bar2 {
+        opacity: 0;
+    }
+    .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        -ms-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+    }
+    .mobile-menu nav ul li:last-child{
+        background-color: #6b7f80 !important;
+        width: 150px;
+        height: 50px;
+        display: grid;
+        place-items: center;
+        border-radius: 10px;
+        border: 2px solid #6b7f80;
+        -webkit-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .mobile-menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: end;
+    }
+    .mobile-menu button {
+        background: transparent;
+        border: 0;
+    }
+    #offcanvas {
+        height: 100%;
+        background: #83a7a5;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+        box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+        z-index: 1;
+    }
+    #offcanvas a {
+        border-bottom: 0;
+        font-weight: 500;
+        text-align: center;
+    }
+    #offcanvas a:hover {
+        background: #6b7f80;
+    }
+    #offcanvas ul li:last-child a{
+        padding: 0 !important;
+    }
+    #offcanvas ul li:last-child a:hover{
+        background: initial;
+    }
+    .mobile-menu nav {
+        padding-top: 70px;
+    }
+    .banner-area {
+        min-height: 550px;
+    }
+    .single-fea {
+        padding-bottom: 30px;
+    }
+    .section-head {
+        padding-bottom: 50px;
+    }
+    .mobile_sec .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    .hand-sec-cont {
+        padding-bottom: 40px;
+    }
+}
+@media(max-width: 575px) {
+    .header-area .container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #879d9d;
+    }
+    .fea-cont h3 {
+        padding-top: 10px;
+    }
+    .fea-cont p {
+        padding-top: 10px;
+    }
+    .single-fea {
+        padding-bottom: 40px;
+    }
+    .leftfea-para p {
+        padding-top: 15px;
+    }
+    .single-left-fea {
+        padding-bottom: 40px;
+    }
+    .sec-para {
+        width: 100%;
+        margin: auto;
+    }
+    .section-heading h2 {
+        font-size: 25px;
+    }
+    .mobile_sec {
+        padding-top: 50px;
+    }
+    .lady-sec-cont h3 {
+        font-size: 20px;
+    }
+    .lady-sec {
+        padding: 50px 0;
+    }
+    .map-area {
+        padding: 65px 0;
+    }
+    .map-head h3 {
+        font-size: 28px;
+    }
+    .pricing-area {
+        padding-top: 55px;
+        padding-bottom: 30px;
+    }
+    .plans-area {
+        padding-bottom: 0;
+    }
+    .footer-single-box {
+        text-align: center;
+    }
+    .footer-list-heading {
+        padding-bottom: 10px;
+    }
+    .download-btn {
+        padding-top: 30px;
+    }
+    .download-area {
+        padding: 40px 0;
+    }
+    .footer-bottom .col-sm-6 {
+        text-align: center;
+    }
+    .social-links {
+        text-align: center;
+        padding-top: 20px;
+    }
+}
+
+@media(max-width: 425px) {
+    .banner-cont h1 {
+        font-size: 35px;
+    }
+    .features-area {
+        padding: 40px 0 20px;
+    }
+    .features-area .row:last-child {
+        padding-top: 0;
+    }
+    .lady-sec-cont h3 {
+        font-size: 16px;
+        line-height: 32px;
+    }
+    .footer-area {
+        padding-top: 45px;
+        padding-bottom: 10px;
+    }
+    .section-head {
+        padding-bottom: 30px;
+    }
+    .download-txt h3 {
+        font-size: 25px;
+    }
+    .download-btn {
+        padding-top: 20px;
+    }
+    #scrollUp {
+        right: 20px;
+        bottom: 20px;
+    }
+}
